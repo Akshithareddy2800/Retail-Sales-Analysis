@@ -1,3 +1,43 @@
+# Retail Sales Analysis
+
+## Project Overview
+This project analyzes retail sales data to extract insights and visualize trends using Python, SQL, and Power BI.
+
+## Folder Structure
+
+```mermaid
+graph TD;
+    A[raw data] --> B[data preprocessing]
+    B --> C[SQL database]
+    C --> D[Analysis Notebooks]
+    D --> E[Visualizations]
+    E --> F[Power BI Reports]
+```
+
+- **data/**: Contains raw and processed data files.
+- **sql/**: SQL scripts and Python scripts for database setup and data import.
+- **notebooks/**: Jupyter notebooks for exploratory data analysis and modeling.
+- **visualizations/**: Python scripts for generating charts and plots.
+- **powerbi/**: Guides and templates for Power BI reporting.
+- **docs/**: Project documentation and checklists.
+
+## Data Flow
+1. Raw data is stored in `data/raw/`.
+2. Data is processed and imported into a SQL database using scripts in `sql/`.
+3. Analysis is performed in Jupyter notebooks (`notebooks/`).
+4. Visualizations are created using scripts in `visualizations/` and Power BI (`powerbi/`).
+
+## Getting Started
+1. Install dependencies: `pip install -r requirements.txt`
+2. Set up the database: see `sql/setup_database.sql` and `sql/import_data.py`
+3. Explore the analysis in `notebooks/sales_analysis.ipynb`
+4. Generate visualizations or use Power BI templates.
+
+## Authors
+- Your Name Here
+
+---
+
 # Retail Sales Analysis Project
 
 A beginner-friendly data analysis project that helps you learn SQL and data visualization through analyzing retail sales data.

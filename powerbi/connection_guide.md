@@ -1,5 +1,17 @@
 # Power BI Connection Guide
 
+## Technical Overview
+
+```mermaid
+graph TD;
+    A[SQL Database] --> B[Power BI]
+    B --> C[Reports & Dashboards]
+```
+
+This guide explains how to connect Power BI to the SQL database and use the data for reporting.
+
+---
+
 ## Step 1: Install Power BI Desktop
 1. Download Power BI Desktop from: https://powerbi.microsoft.com/desktop/
 2. Install and open Power BI Desktop

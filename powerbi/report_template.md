@@ -1,3 +1,17 @@
+# Power BI Report Template
+
+## Technical Overview
+
+```mermaid
+graph TD;
+    A[SQL/Processed Data] --> B[Power BI Template]
+    B --> C[Custom Reports]
+```
+
+This template provides a starting point for building custom Power BI reports using the project data.
+
+---
+
 # Retail Sales Analysis Dashboard
 
 ## Page 1: Executive Summary

@@ -1,3 +1,14 @@
+"""
+This script imports raw CSV data into the SQL database for analysis.
+
+Mermaid Diagram (Data Import Flow):
+
+    ```mermaid
+    graph TD;
+        A[Raw CSV Files] --> B[import_data.py]
+        B --> C[SQL Database]
+    ```
+"""
 import pandas as pd
 import mysql.connector
 from mysql.connector import Error

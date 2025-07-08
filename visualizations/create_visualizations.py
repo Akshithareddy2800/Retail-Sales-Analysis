@@ -1,3 +1,14 @@
+"""
+This script generates visualizations from processed sales data.
+
+Mermaid Diagram (Visualization Workflow):
+
+    ```mermaid
+    graph TD;
+        A[Processed Data] --> B[create_visualizations.py]
+        B --> C[Charts & Graphs]
+    ```
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
